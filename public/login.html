@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <title>Login Page</title>
+
+  <style>
+    body {
+      background-color: #F2F2F2;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-[#249D54] sticky-top">
+    <div class=" container">
+      <a class="navbar-brand" href="#"><img class="img-fluid" src="../src/img/Logo White.png" alt="YEU"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-center w-full" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link mr-12" href="#">Infografis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-12" href="#">Bantuan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tentang Kami</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse justify-end " id="navbarNav">
+        <div class="logReg flex justify-end w-44">
+          <button class="text-white border-none hover:underline">
+            Masuk
+          </button>
+          <button class="btn btn-outline-light px-3 ml-3">
+            Buat Akun!
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Isi -->
+  <div class="container mt-24">
+    <div class="logo flex justify-center">
+      <img class="img-fluid" src="../src/img/Logo Warna.png" alt="">
+    </div>
+
+    <h4 class="text-center text-[#249D54] font-bold">YAKKUM Emergency Unit</h4>
+
+    <div class="formLogin flex justify-center">
+      <form class="w-1/2" action="">
+        <div class="email flex flex-col mt-8">
+          <label class="text-[#249D54] font-bold" for="">Email</label>
+          <input class="border-2 h-8" type="text" name="" id="" placeholder="name@example.com">
+        </div>
+        <div class="password flex flex-col mt-4">
+          <label class="text-[#249D54] font-bold" for="">Password</label>
+          <input class="border-2 h-8" type="password" name="" id="" placeholder="******">
+        </div>
+        <div class="lupaPass flex justify-end mt-3 mb-3">
+          <a class="text-sm text-[#249D54] hover:text-green-700" href="#">Lupa Password?</a>
+        </div>
+        <button class="bg-[#249D54] h-8 w-full text-white font-bold rounded-sm mb-32 hover:bg-green-700">
+          MASUK
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- End Isi -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="subsribe bg-[#249D54] h-24 flex justify-center">
+      <div class="flex items-center">
+        <div class="txtSub text-center mr-8 text-white">
+          <p class="text-5xl font-bold italic mt-6">SUBSCRIBE</p>
+          <p class="text-xs -mt-4">Untuk Mendapatkan Info Terupdate Dari Kami!</p>
+        </div>
+
+        <div class="fieldSub">
+          <input class="h-8 w-80 mr-8" type="text">
+          <button
+            class="bg-[#121212] text-white font-bold py-2 px-4 text-xs drop-shadow-lg rounded-sm">SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer md:min-h-[420px] lg:min-h-[280px] bg-[#121212] pt-8">
+      <div class="container px-4">
+        <div class="xl:gap-44 lg:gap-12 lg:flex lg:justify-center lg:grid-cols-none md:gap-0 md:grid md:grid-cols-2">
+
+          <div class="alamat w-[19rem]">
+            <h5 class="text-[#249D54] text-2xl font-bold">YAKKUM Emergency Unit</h5>
+            <p class="text-sm text-white">Jl. KM. 12, Dusun Jl. Melati Candi 3 No.34, RT.03/RW.06, Candi, Sardonoharjo,
+              Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</p>
+          </div>
+
+          <div class="jelajahKami">
+            <h5 class="text-[#249D54] text-base font-bold">JELAJAHI KAMI</h5>
+            <p class="text-sm mb-2"><a class="text-white no-underline hover:text-green-700" href="#">Infografis</a></p>
+            <p class="text-sm mb-2"><a class="text-white no-underline hover:text-green-700" href="#">Cari Aktivitas</a>
+            </p>
+            <p class="text-sm"><a class="text-white no-underline" href="#">Tentang Kami</a></p>
+          </div>
+
+          <div class="bantuan">
+            <h5 class="text-[#249D54] text-base font-bold">BANTUAN</h5>
+            <p class="text-sm mb-2"><a class="text-white no-underline hover:text-green-700" href="#">Syarat dan
+                Ketentuan</a></p>
+            <p class="text-sm mb-2"><a class="text-white no-underline hover:text-green-700" href="#">Kebijakan dan
+                Privasi</a></p>
+            <p class="text-sm mb-2"><a class="text-white no-underline hover:text-green-700" href="#">Kontak Kami</a></p>
+            <p class="text-sm"><a class="text-white no-underline hover:text-green-700" href="#">FAQ</a></p>
+          </div>
+
+          <div class="ikutiKami">
+            <h5 class="text-[#249D54] text-base font-bold">IKUTI KAMI</h5>
+            <div class="inline-flex">
+              <a href="#">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="32.000000pt" height="32.000000pt"
+                  viewBox="0 0 32.000000 32.000000" preserveAspectRatio="xMidYMid meet">
+    
+                  <g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)" fill="#249D54" stroke="none">
+                    <path d="M120 308 c-94 -26 -141 -143 -90 -225 80 -132 280 -79 282 76 1 99
+      -97 175 -192 149z m80 -83 c0 -8 -4 -15 -10 -15 -5 0 -10 -7 -10 -15 0 -8 6
+      -15 14 -15 9 0 12 -7 9 -20 -3 -11 -9 -20 -14 -20 -5 0 -9 -13 -9 -30 0 -23
+      -4 -30 -20 -30 -15 0 -20 7 -20 29 0 16 -6 31 -15 35 -8 3 -15 12 -15 21 0 8
+      7 15 15 15 9 0 15 9 15 23 0 13 3 27 7 30 13 13 53 7 53 -8z" />
+                  </g>
+                </svg>
+              </a>
+  
+              <a href="#">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="36.000000pt" height="32.000000pt"
+                  viewBox="0 0 36.000000 32.000000" preserveAspectRatio="xMidYMid meet">
+    
+                  <g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)" fill="#249D54" stroke="none">
+                    <path d="M110 291 c-55 -29 -75 -64 -75 -131 0 -68 21 -104 76 -133 43 -23
+    119 -18 157 10 42 30 64 81 59 134 -9 111 -121 172 -217 120z m160 -75 c0 -8
+    -4 -18 -10 -21 -5 -3 -10 -17 -10 -31 0 -14 -11 -36 -25 -49 -20 -21 -34 -25
+    -80 -25 -30 0 -55 5 -55 10 0 6 9 10 20 10 19 0 19 1 1 30 -10 17 -16 41 -13
+    55 5 29 5 29 41 11 25 -13 28 -13 39 5 15 24 92 28 92 5z" />
+                  </g>
+                </svg>
+              </a>
+  
+              <a href="#">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="32.000000pt" height="32.000000pt"
+                  viewBox="0 0 32.000000 32.000000" preserveAspectRatio="xMidYMid meet">
+    
+                  <g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)" fill="#249D54" stroke="none">
+                    <path d="M120 308 c-94 -26 -141 -143 -90 -225 80 -132 280 -79 282 76 1 99
+    -97 175 -192 149z m108 -80 c7 -7 12 -37 12 -68 0 -31 -5 -61 -12 -68 -16 -16
+    -120 -16 -136 0 -16 16 -16 120 0 136 16 16 120 16 136 0z" />
+                    <path d="M112 208 c-16 -16 -16 -80 0 -96 16 -16 80 -16 96 0 15 15 16 78 1
+    78 -6 0 -8 -8 -4 -19 6 -20 -24 -61 -45 -61 -13 0 -50 37 -50 50 0 21 41 51
+    61 45 11 -4 19 -2 19 4 0 15 -63 14 -78 -1z" />
+                    <path d="M144 169 c-10 -17 13 -36 27 -22 12 12 4 33 -11 33 -5 0 -12 -5 -16
+    -11z" />
+                  </g>
+                </svg>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <hr class="text-white w-[500px] relative -bottom-10 ">
+          <p class="text-white text-xs relative top-[30px]">YAKKUM Emergency Unit © 2022 - All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
